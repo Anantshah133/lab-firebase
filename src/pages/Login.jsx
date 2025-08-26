@@ -13,7 +13,7 @@ const Login = () => {
         if (user) {
             navigate("/");
         } 
-    }, []) 
+    }, [user]) 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
