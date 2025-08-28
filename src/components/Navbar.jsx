@@ -3,7 +3,6 @@ import { AuthContext } from "../contexts/AuthContextProvider";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
     const { handleLogout } = useContext(AuthContext);
 
     return (
